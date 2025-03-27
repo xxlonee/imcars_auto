@@ -1,0 +1,96 @@
+.header {
+    background-color: rgb(176, 196, 222); 
+}
+.header__title {
+    color: rgb(0, 0, 0);
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 40px;
+    font-size: 43px;
+}
+
+.header__buttons {
+    margin-right: 25px;
+    margin-left: auto;
+}
+.header__button {
+    background-color: rgb(176, 196, 222);
+    border: none;
+}
+.header__button:hover {
+    color: rgb(48, 49, 49);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.header__button:focus {
+    outline: none;
+    cursor: pointer;
+    color: rgb(48, 49, 49);
+    font-weight: bolder;
+}
+.header__button:active {
+    color: rgb(48, 49, 49);
+}
+.header__button-text {
+    font-size: 17px;
+}
+.header__button-icon {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header__list {
+    color: black;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.header__item-link {
+    display: block;
+    color: black;
+    transition: color 0,3s ease;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    min-width: 135px;
+    transition: transform 0.2s;
+    transform-origin: top;
+}
+.header__item-link:hover {
+    color: rgb(48, 49, 49);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.header__item-link:focus {
+    outline: none;
+    cursor: pointer;
+    color: rgb(48, 49, 49);
+    font-weight: bolder;
+}
+.header__item-link:active {
+    color: rgb(48, 49, 49);
+}
+.header {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   justify-content: space-between;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.header__title {
+   width: 100%;
+   flex-shrink: 0;
+}
+.header__menu { 
+    display: block;
+    justify-content: center;
+    width: 100%;
+    flex-shrink: 0;
+}

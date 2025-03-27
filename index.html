@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMCARS</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+</head>
+
+<body>
+  <header class="header container">
+    <h1 class="header__title">IMCARS</h1>
+    <div class="header__buttons">
+      <button class="header__button" type="button">
+        <img class="header__button-icon" src="images/favorites.png" alt="Вход" width="47" height="47">
+        <span class="header__button-text">Избранное</span>
+      </button>
+      <button class="header__button" type="button">
+        <img class="header__button-icon" src="images/user.png" alt="Вход" width="47" height="47">
+        <span class="header__button-text">Вход</span>
+      </button>
+    </div>
+    <nav class="header__menu">
+      <ul class="header__list">
+        <li class="header__item"><a class="header__item-link" href="#">Модели</a></li>
+        <li class="header__item"><a class="header__item-link" href="#">Покупателям</a></li>
+        <li class="header__item"><a class="header__item-link" href="#">Владельцам</a></li>
+        <li class="header__item"><a class="header__item-link" href="#">O компании</a></li>
+        <li class="header__item"><a class="header__item-link" href="#">Контактные данные</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main container">
+    <p class="popular__models">Наиболее популярные предложения</p>
+    <section class="section_popular">
+      <div class="slider">
+      <button class="sliderLeft">
+          <img class="slider__image" src="images/left.png" alt="Влево" width="30">
+      </button>
+    <div class="slider_wrap">
+        <ul class="popular__list">
+          <li class="popular__cars">
+            <div class="car__wrapper">
+              <img class="popular__cars__img" src="images/e-class.webp" alt="Mercedes" width="400">
+            <button class="popular__model__link" href="#"> О модели</button>
+            </div>
+          </li>
+          <li class="popular__cars">
+            <div class="car__wrapper">
+              <img class="popular__cars__img" src="images/bmw5.webp" alt="Bmw5" width="400">
+            <button class="popular__model__link" href="#"> О модели</button>
+            </div>
+          </li>
+          <li class="popular__cars">
+            <div class="car__wrapper">
+              <img class="popular__cars__img" src="images/audia6.webp" alt="audia6" width="400">
+            <button class="popular__model__link" href="#"> О модели</button>
+            </div>
+          </li>
+          <li class="popular__cars">
+            <div class="car__wrapper">
+              <img class="popular__cars__img" src="images/optima.webp" alt="kia" width="400">
+            <button class="popular__model__link" href="#"> О модели</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="slider">
+        <button class="sliderRight">
+          <img class="slider__image" src="images/right.png" alt="вправо" width="30">
+        </button>
+      </div>
+    </div>
+    </section>
+    <section class="model">
+      <h2 class="model__title">Модельный ряд</h2>
+  <ul class="model__list">
+      <li class="model__list-item">
+          <img class="model__img" src="images/vesta.webp" alt="Lada Vesta" width="150">
+          <p class="model__car">Lada Vesta, 2024</p>
+          <span class="model__price"> 2 000 000 руб.</span>
+          <button class="model__link" href="#"> Подробнее</button>
+      </li>
+      <li class="model__list-item">
+          <img class="model__img" src="images/granta.webp" alt="Lada Granta" width="150">
+          <p class="model__car">Lada Granta Sport, 2024</p>
+          <span class="model__price"> 1 500 000 руб.</span>
+          <button class="model__link" href="#"> Подробнее</button>
+      </li>
+      <li class="model__list-item">
+        <img class="model__img" src="images/geely coolray.jpg" alt="Geely Coolray" width="150">
+        <p class="model__car">Geely Coolray, 2023</p>
+        <span class="model__price"> 2 250 000 руб.</span>
+        <button class="model__link" href="#"> Подробнее</button>
+    </li>
+    <li class="model__list-item">
+      <img class="model__img" src="images/haval jolion.webp" alt="Haval Jolion" width="150">
+      <p class="model__car">Haval Jolion, 2022</p>
+      <span class="model__price"> 2 050 000 руб.</span>
+      <button class="model__link" href="#"> Подробнее</button>
+    </li>
+    <li class="model__list-item">
+      <img class="model__img" src="images/chery arrizo 8.webp" alt="chery arrizo 8" width="150">
+      <p class="model__car">Chery Arrizo 8, 2024</p>
+      <span class="model__price"> 3 100 000 руб.</span>
+      <button class="model__link" href="#"> Подробнее</button>
+    </li>
+    <li class="model__list-item">
+      <img class="model__img" src="images/tank 3.webp" alt="Tank 300" width="150">
+      <p class="model__car">Tank 300, 2024</p>
+      <span class="model__price"> 4 250 000 руб.</span>
+      <button class="model__link" href="#"> Подробнее</button>
+    </li>
+  </ul>
+  <section class="about">
+    <div class="about__wrap-left">
+    <h2 class="about__title">О компании</h2>
+    <p>IMCARS — это современный автомобильный маркетплейс, который предлагает своим клиентам широкий выбор новых и подержанных автомобилей. 
+        Мы стремимся создать удобные условия для покупки и продажи автомобилей, обеспечивая высокое качество обслуживания и прозрачность всех сделок.
+        Покупка автомобиля — это важный шаг, и наша цель — сделать этот процесс максимально комфортным и безопасным. 
+        Каждое транспортное средство в нашем каталоге проходит тщательную проверку на юридическую чистоту и техническое состояние, что гарантирует нашим клиентам уверенность в своем выборе.
+    </p>
+</div>
+<div class="about__wrap-right">
+    <img class="about__image" src="images/autosalon.jpg" alt="Фото салона" width="500" height="200">
+</div>
+</section>
+  </main>
+  <footer class="footer container">
+    <div class="footer__part">
+      <h2 class="footer__title">Разработчики</h2>
+      <p class="footer__object">Кокушкин Даниил</p>
+      <p class="footer__object">Атлашкин Илья</p>
+      <p class="footer__object">Коршунова Татьяна</p>
+      <p class="footer__copyright">© Все права защищены</p>
+    </div>
+    <div class="footer__part">
+      <h2 class="footer__title">Покупателям</h2>
+      <ul class="footer__list">
+        <li class="footer__item"><a class="footer__item-link" href="#">Отзывы</a></li>
+        <li class="footer__item"><a class="footer__item-link" href="#">Рассчитать стоимость кредита</a></li>
+        <li class="footer__item"><a class="footer__item-link" href="#">Trade-in</a></li>
+        <li class="footer__item"><a class="footer__item-link" href="#">Страхование</a></li>
+      </ul>
+    </div>
+    <div class="footer__part">
+      <h2 class="footer__title">Продавцам</h2>
+      <ul class="footer__list">
+        <li class="footer__item"><a class="footer__item-link" href="#">Продать свой авто</a></li>
+        <li class="footer__item"><a class="footer__item-link" href="#">Поделиться впечатлениями</a></li>
+        <li class="footer__item"><a class="footer__item-link" href="#">Записаться на сервис</a></li>
+      </ul>
+    </div>
+    <div class="footer__part">
+      <h2 class="footer__title">О нас</h2>
+      <ul class="footer__list">
+        <li class="footer__item"><a class="footer__item-link" href="#">Контакты</a></li>
+        <li class="footer__item"><a class="footer__item-link" href="#">Адреса</a></li>
+      </ul>
+    </div>
+  </footer>
+  <section class="section form">
+    <form class="form" action="/">
+      <h2 class="form__title">Вход</h2>
+      <input class="form__input" type="tel" name="phone" placeholder="Введите номер телефона" required>
+      <input class="form__input" type="tel" name="password" placeholder="Введите пароль" required>
+      <button class="form__button">Войти</button>
+      <p class="form__separator">ИЛИ</p>
+      <a class="form__link" href="#">Регистрация</a>
+    </form>
+  </section>
+  <section class="section form">
+    <form class="form" action="/">
+      <h2 class="form__title">Регистрация</h2>
+      <p class="form__desk">Введите ваши данные</p>
+      <div class="form__item">
+        <label class="form__lable">Фамилия</label>
+        <input class="form__input" type="text" name="name" placeholder="Введите фамилию" required>
+      </div>
+      <div class="form__item">
+        <label class="form__lable">Имя</label>
+        <input class="form__input" type="text" name="surname" placeholder="Введите имя" required>
+      </div>
+      <div class="form__item">
+        <label class="form__lable">Номер телефона</label>
+        <input class="form__input" type="tel" name="phone" placeholder="Введите номер телефона" required>
+      </div>
+      <button class="form__button">Зарегистрироваться</button>
+    </form>
+  </section>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
