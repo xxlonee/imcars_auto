@@ -22,39 +22,49 @@
     display: flex;
 }
 .sliderLeft {
-    background-color: white;
+    width: 50px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
     border: none;
+    margin-left: 20px;
+    margin-top: 250px;
 }
 .sliderRight {
-    background-color: white;
+    width: 50px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
     border: none;
+    margin-right: 20px;
+    margin-top: 250px;
 }
 .slider__image {
-    background-color: white;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
 }
 .slider__image:hover {
-    background-color: rgb(223, 217, 217);
+    background-color: rgb(133, 174, 212);
     cursor: pointer;
     transition: 0.2s;
 }
 .slider__image:focus {
     outline: none;
     cursor: pointer;
-    background-color: rgb(223, 217, 217);
-    border-color: rgb(223, 217, 217);
+    background-color: rgb(88, 101, 154);
+    border-color: rgb(88, 101, 154);
 }
 .slider__image:active {
-    background-color: rgb(223, 217, 217);
+    background-color: rgb(88, 101, 154);
 }
 .popular__list {
     gap: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 20px; 
+    padding-left: 0px; 
     align-items: center;
-    position: relative;     
+    position: relative;   
   }
 .slider__wrap {
     width: 1350px;
@@ -72,8 +82,8 @@
     width: 500px;
     flex-shrink: 0;
     list-style-type: none;  
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10px;
+    margin-right: 10px;
     position: relative;
     margin-top: 20px;
 }

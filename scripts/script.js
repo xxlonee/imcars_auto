@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     /* Динамическое перелистывание карточек выгодных товаров */
 
-    const sliderLeft = document.querySelector('.sliderLeft');             // создаем переменную находя блок по классу
-    const sliderRight = document.querySelector('.sliderRight');
-    const product = document.querySelector('.profitably__list');
+    const sliderLeft = document.querySelector('.slider_Left');             // создаем переменную находя блок по классу
+    const sliderRight = document.querySelector('.slider_Right');
+    const car = document.querySelector('.popular__list');
     /*
 
        *   Алгоритм
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log('Константа sliderLeft существует');
         sliderLeft.addEventListener('click', () => {
             console.log('Кнопка sliderLeft нажимается');
-            let left = product.style.getPropertyValue('left');
+            let left = car.style.getPropertyValue('left');
             if (left) {
                 left = left.replace('px', '');
                 left = parseInt(left);
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 left = left + 360;
             }
             console.log('left', left + 'px')
-            product.style.setProperty('left', left + 'px');
+            car.style.setProperty('left', left + 'px');
 
         })
     }
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
             console.log('Кнопка sliderRight нажимается');
             let width = 360*4;
             console.log('width' + width);
-            /* let left = product.style.getPropertyValue('left);
+            /* let left = car.style.getPropertyValue('left);
             if (left) {
                 left = left.replace('px', '');
             }
@@ -60,8 +60,8 @@ document.addEventListener("DOMContentLoaded", () => {
             }
             left = parseInt(left) - 350;
             console.log('left' + left);
-            product.style.setProperty ('left', left + 'px');*/
-            let left = product.style.getPropertyValue('left');
+            car.style.setProperty ('left', left + 'px');*/
+            let left = car.style.getPropertyValue('left');
             if (left) {
                 left = left.replace('px', '');
                 left = parseInt(left);
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 left = left - 360;
             }
             console.log('left' + left);
-            product.style.setProperty('left', left + 'px');
+            car.style.setProperty('left', left + 'px');
 
         })
     }
